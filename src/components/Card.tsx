@@ -22,6 +22,19 @@ export default function Card(props: IProps) {
       {props.project.languages.map((data) => {
         return <img src={data} alt="efne" width={20} height={20}></img>;
       })}
+
+      {props.project.githubFrontRepo && (
+        <button>
+          {" "}
+          <a href={props.project.githubFrontRepo}>Front End Code</a>
+        </button>
+      )}
+      {props.project.githubBackRepo && (
+        <button>
+          {" "}
+          <a href={props.project.githubBackRepo}>Back End Code</a>
+        </button>
+      )}
     </div>
   );
 }
