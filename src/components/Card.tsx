@@ -24,16 +24,14 @@ export default function Card(props: IProps) {
       })}
 
       {props.project.githubFrontRepo && (
-        <button>
-          {" "}
-          <a href={props.project.githubFrontRepo}>Front End Code</a>
-        </button>
+        <a href={props.project.githubFrontRepo}>
+          <button> Front End Code</button>
+        </a>
       )}
       {props.project.githubBackRepo && (
-        <button>
-          {" "}
-          <a href={props.project.githubBackRepo}>Back End Code</a>
-        </button>
+        <a href={props.project.githubBackRepo}>
+          <button> Back End Code</button>
+        </a>
       )}
     </div>
   );
