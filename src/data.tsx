@@ -13,6 +13,7 @@ import node from "./languagePics/node.png";
 import react from "./languagePics/React.svg.png";
 import jest from "./languagePics/jest.png";
 import mongo from "./languagePics/mongoDb.jpg";
+import ts from "./languagePics/ts.png";
 
 interface Project {
   id: number;
@@ -30,7 +31,7 @@ const data: readonly Project[] = [
     githubFrontRepo: "https://github.com/a-sha0234/Portfolio-website",
     githubBackRepo: "",
     screenshot: "",
-    languages: [html, js],
+    languages: [html, ts, react, sass ],
   },
   {
     id: 2,
@@ -56,14 +57,14 @@ const data: readonly Project[] = [
     screenshot: restaurentImg,
     languages: [html, js, react, sass, jest],
   },
-  {
-    id: 5,
-    name: "E-commerce app",
-    githubFrontRepo: "https://github.com/a-sha0234/Ecommerc-frontEnd",
-    githubBackRepo: "https://github.com/a-sha0234/Ecommerce-backend",
-    screenshot: "",
-    languages: [html, js, react, sass, node, mongo],
-  },
+  // {
+  //   id: 5,
+  //   name: "E-commerce app",
+  //   githubFrontRepo: "https://github.com/a-sha0234/Ecommerc-frontEnd",
+  //   githubBackRepo: "https://github.com/a-sha0234/Ecommerce-backend",
+  //   screenshot: "",
+  //   languages: [html, js, react, sass, node, mongo],
+  // },
 
   {
     id: 6,
