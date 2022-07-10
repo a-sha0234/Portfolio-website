@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       {/* <div className="navbar__container"> */}
-      <h3 className="navbar__logo">Logo</h3>
+      <h3 className="navbar__logo">Portfolio</h3>
 
       <ul
         className={isToggle ? "nav-links-mobile" : "navbar__nav-links"}

@@ -1,10 +1,16 @@
 export default function Home() {
   return (
-    <div>
-      <section>
+    <div className="home">
+      <section className="home__content">
         <h1>Arun Sharma</h1>
-        <p>Computer science grad</p>
       </section>
+      <div className="arrow arrow-first"></div>
+      <div className="arrow arrow-second"></div>
+      <div className="homeLinks">
+        <a href="/projects" className="link__button">
+          My Projects
+        </a>
+      </div>
     </div>
   );
 }
