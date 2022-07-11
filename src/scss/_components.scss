@@ -6,11 +6,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(
-    to right,
-    rgba(42, 32, 66, 0.479),
-    rgb(21, 18, 18)
-  );
+  // background-image: linear-gradient(
+  //   to right,
+  //   rgba(42, 32, 66, 0.479),
+  //   rgb(21, 18, 18)
+  // );
+  // background-color: #2e6171;
+  background-color: #274690;
 
   &__logo {
     font-size: 30px;
@@ -83,18 +85,17 @@ button {
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 
   &__languages {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   &__languages img {
     margin: 10px;
-  }
-
-  &__buttons {
   }
 }
