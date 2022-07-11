@@ -21,6 +21,7 @@ interface Project {
   githubFrontRepo: string;
   githubBackRepo: string;
   screenshot: string;
+  description: string;
   languages: string[];
 }
 
@@ -31,7 +32,8 @@ const data: readonly Project[] = [
     githubFrontRepo: "https://github.com/a-sha0234/Portfolio-website",
     githubBackRepo: "",
     screenshot: "",
-    languages: [html, ts, react, sass ],
+    description: "",
+    languages: [html, ts, react, sass],
   },
   {
     id: 2,
@@ -39,6 +41,7 @@ const data: readonly Project[] = [
     githubFrontRepo: "https://github.com/a-sha0234/blog-app-clientSide",
     githubBackRepo: "https://github.com/a-sha0234/blog-app",
     screenshot: blog,
+    description: "This i",
     languages: [html, js, react, sass, node, mongo],
   },
   {
@@ -47,6 +50,7 @@ const data: readonly Project[] = [
     githubFrontRepo: "https://github.com/a-sha0234/reciept-frontend",
     githubBackRepo: "https://github.com/a-sha0234/receipt-backend",
     screenshot: receipt,
+    description: "",
     languages: [html, js, react, sass, node, mongo],
   },
   {
@@ -55,6 +59,7 @@ const data: readonly Project[] = [
     githubFrontRepo: "https://github.com/a-sha0234/Restaurent-landing-page",
     githubBackRepo: "",
     screenshot: restaurentImg,
+    description: "",
     languages: [html, js, react, sass, jest],
   },
   // {
@@ -72,6 +77,7 @@ const data: readonly Project[] = [
     githubFrontRepo: "https://github.com/a-sha0234/tic-tac-toe-game",
     githubBackRepo: "",
     screenshot: ticTacToe,
+    description: "",
     languages: [html, css, js],
   },
 ];

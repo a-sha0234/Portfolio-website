@@ -4,8 +4,8 @@ import { data } from "../data";
 export default function Projects() {
   console.log(data);
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className="projects">
+      <h1 className="projects__title">Projects</h1>
       {data.map((projectData) => {
         return <Card project={projectData} />;
       })}
