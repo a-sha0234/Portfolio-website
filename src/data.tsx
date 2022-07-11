@@ -3,6 +3,7 @@ import restaurentImg from "./screenshots/restaurent.png";
 import ticTacToe from "./screenshots/ticTacToe.png";
 import blog from "./screenshots/blog.png";
 import receipt from "./screenshots/receipt.png";
+import Portfolio from "./screenshots/portfolio.png";
 
 //import languages
 import html from "./languagePics/html.svg.png";
@@ -31,8 +32,9 @@ const data: readonly Project[] = [
     name: "Portfolio site (This site)",
     githubFrontRepo: "https://github.com/a-sha0234/Portfolio-website",
     githubBackRepo: "",
-    screenshot: "",
-    description: "",
+    screenshot: Portfolio,
+    description:
+      "A front end portfolio site, this is used to display information about myself and projects I have made ",
     languages: [html, ts, react, sass],
   },
   {
@@ -41,7 +43,8 @@ const data: readonly Project[] = [
     githubFrontRepo: "https://github.com/a-sha0234/blog-app-clientSide",
     githubBackRepo: "https://github.com/a-sha0234/blog-app",
     screenshot: blog,
-    description: "This i",
+    description:
+      "This is web application contains one back-end (rest api) and two front-ends (one for the admin to add and delete blogs, the other for    users to read and comment under blogs) using the JAMstack architecture.",
     languages: [html, js, react, sass, node, mongo],
   },
   {
@@ -50,7 +53,8 @@ const data: readonly Project[] = [
     githubFrontRepo: "https://github.com/a-sha0234/reciept-frontend",
     githubBackRepo: "https://github.com/a-sha0234/receipt-backend",
     screenshot: receipt,
-    description: "",
+    description:
+      "This website allows users to utalize the crud operations (create, read, update and delete) to track their receipts. This contains one back-end and one front-end.",
     languages: [html, js, react, sass, node, mongo],
   },
   {
@@ -59,7 +63,8 @@ const data: readonly Project[] = [
     githubFrontRepo: "https://github.com/a-sha0234/Restaurent-landing-page",
     githubBackRepo: "",
     screenshot: restaurentImg,
-    description: "",
+    description:
+      "This is a simple landing page for a restaurent that allows potential customers to check out the special dishes and opening times! ",
     languages: [html, js, react, sass, jest],
   },
   // {
@@ -77,7 +82,8 @@ const data: readonly Project[] = [
     githubFrontRepo: "https://github.com/a-sha0234/tic-tac-toe-game",
     githubBackRepo: "",
     screenshot: ticTacToe,
-    description: "",
+    description:
+      "A fully fledged two player game, with a score tracker and replay ability",
     languages: [html, css, js],
   },
 ];
