@@ -30,7 +30,7 @@ export default function About() {
         <p className="about__title">Technologies</p>
         <ul className="about__skills">
           <li>React</li>
-          <li>Bootstrao</li>
+          <li>Bootstrap</li>
           <li>Node</li>
           <li>Express</li>
         </ul>
