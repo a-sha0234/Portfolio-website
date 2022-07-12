@@ -5,7 +5,7 @@ export default function Projects() {
   console.log(data);
   return (
     <div className="projects">
-      <h1 className="projects__title">Projects</h1>
+      {/* <h1 className="projects__title">Projects</h1> */}
       {data.map((projectData) => {
         return <Card project={projectData} />;
       })}

@@ -14,7 +14,7 @@ export default function Card(props: IProps) {
   return (
     <div>
       <div className="card">
-        <p>{props.project.name}</p>
+        <h1>{props.project.name}</h1>
 
         <img
           src={props.project.screenshot}
