@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaCode } from "react-icons/fa";
 
 export default function Navbar() {
   const [isToggle, setIsToggle] = useState(false);
@@ -13,7 +13,9 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       {/* <div className="navbar__container"> */}
-      <h3 className="navbar__logo">Portfolio</h3>
+      <h3 className="navbar__logo">
+        <FaCode />
+      </h3>
 
       <ul
         className={isToggle ? "nav-links-mobile" : "navbar__nav-links"}

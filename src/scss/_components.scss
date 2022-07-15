@@ -6,16 +6,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // background-image: linear-gradient(
-  //   to right,
-  //   rgba(42, 32, 66, 0.479),
-  //   rgb(21, 18, 18)
-  // );
-  // background-color: #2e6171;
   background-color: #274690;
 
   &__logo {
     font-size: 30px;
+    max-width: 10%;
   }
 
   &__nav-links {
